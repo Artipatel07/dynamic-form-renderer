@@ -1,0 +1,11 @@
+export const schema = {
+  title: "User Registration",
+  fields: [
+    { label: "Name", type: "text", name: "name", required: true },
+    { label: "Age", type: "number", name: "age" },
+    { label: "Subscribe", type: "checkbox", name: "subscribe" },
+    { label: "Gender", type: "select", name: "gender", options: ["Male", "Female", "Other"] },
+    { label: "Bio", type: "textarea", name: "bio" },
+    { label: "Date of Birth", type: "date", name: "dob" }
+  ]
+};
